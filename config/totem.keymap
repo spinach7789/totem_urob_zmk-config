@@ -4,7 +4,7 @@
 /* map Zen's extra keys */
 // #define X_LH  &kp LANG1  // thumb row, left
 //#define X_RH  SMART_NUM  // thumb row, right
-#define X_LH  &kp ESC
+#define X_RB  &kp ESC
 #define X_RM  &kp GRAVE
 
 /* activate bluetooth */
