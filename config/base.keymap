@@ -16,6 +16,15 @@
     #define BT_CL &trans
 #endif
 
+// num word setting
+&num_word {
+    compatible = "zmk,behavior-auto-layer";
+    #binding-cells = <1>;
+    continue-list = <BACKSPACE DELETE DOT COMMA PLUS MINUS SEQUAL LBKT RBKT FSLH SEMI>;
+    ignore-numbers;
+    ignore-modifiers;
+};
+
 #include "zmk-helpers/helper.h"
 
 
@@ -199,11 +208,6 @@ ZMK_MACRO(win_sleep,
     bindings = <&kp LG(X) &kp U &kp S>;
 )
 
-// num word setting
-&num_word {
-  continue-list = <BACKSPACE DELETE DOT COMMA PLUS MINUS SEQUAL LBKT RBKT FSLH SEMI>;
-  ignore-modifiers;
-};
 
 // misc aliases
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
