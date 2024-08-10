@@ -18,9 +18,7 @@
 
 // num word setting
 &num_word {
-    compatible = "zmk,behavior-auto-layer";
-    #binding-cells = <1>;
-    continue-list = <BACKSPACE DELETE DOT COMMA PLUS MINUS EQUAL LBKT RBKT FSLH SEMI>;
+    continue-list = <BACKSPACE DELETE DOT COMMA PLUS MINUS EQUAL LBKT RBKT FSLH>;
     ignore-numbers;
     ignore-modifiers;
 };
