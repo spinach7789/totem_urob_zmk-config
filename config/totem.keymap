@@ -1,0 +1,14 @@
+/* source key position labels */
+#include "zmk-helpers/key-labels/totem.h"
+
+/* map Zen's extra keys */
+#define X_LH  &kp LGUI      // thumb row, left
+#define X_RH  &smart_mouse  // thumb row, right
+#define X_LB  &kp ESC
+#define X_RB  &kp GRAVE
+
+/* activate bluetooth */
+#define CONFIG_WIRELESS 1
+
+/* source the main keymap */
+#include "base.keymap"
