@@ -1,12 +1,6 @@
 /* source key position labels */
 #include "zmk-helpers/key-labels/totem.h"
 
-/* map Zen's extra keys */
-#define X_LH  &smart_shft  // thumb row, left
-#define X_RH  SMART_NUM  // thumb row, right
-#define X_LB  &kp ESC
-#define X_RB  &kp GRAVE
-
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
 
