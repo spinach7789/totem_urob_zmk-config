@@ -3,6 +3,7 @@
 
 // #define X_LH  &kp LANG1  // thumb row, left
 // #define X_RH  SMART_NUM  // thumb row, right
+#define X_LH  &kp LANG1
 #define X_LB  &kp ESC
 #define X_RB  &kp GRAVE
 
