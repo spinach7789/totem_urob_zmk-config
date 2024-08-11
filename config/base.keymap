@@ -54,7 +54,7 @@
 
 // num word setting
 &num_word {
-    continue-list = <BACKSPACE DELETE DOT COMMA PLUS MINUS EQUAL LBKT RBKT KP_SLASH>;
+    continue-list = <BACKSPACE DELETE DOT COMMA PLUS MINUS EQUAL LBKT RBKT KP_SLASH STAR>;
     ignore-numbers;
     ignore-modifiers;
 };
