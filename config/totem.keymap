@@ -5,6 +5,7 @@
 // #define X_RH  SMART_NUM  // thumb row, right
 
 #define X_LB  &kp A
+#define X_RB  &kp A
 
 
 /* activate bluetooth */
