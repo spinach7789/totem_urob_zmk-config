@@ -4,8 +4,8 @@
 // #define X_LH  &kp LANG1  // thumb row, left
 // #define X_RH  SMART_NUM  // thumb row, right
 
-#define X_LB  &kp A
-#define X_RB  &kp A
+//#define X_LB  &kp A
+//#define X_RB  &none
 
 
 /* activate bluetooth */
