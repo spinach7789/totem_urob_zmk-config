@@ -204,7 +204,7 @@ ZMK_TAP_DANCE(copy_cut,
 ZMK_MACRO(win_sleep,
     wait-ms = <500>;
     tap-ms = <50>;
-    bindings = <&kp LG(X) &kp U &kp S>;
+    bindings = <&kp LGUI &kp L>;
 )
 
 
