@@ -11,24 +11,14 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
-
 ---
 include:
-  - board: nice_nano_v2
-    shield: totem_central_dongle dongle_display
-    artifact-name: totem_central_dongle
   - board: seeeduino_xiao_ble
-    shield: totem_central_left
-    artifact-name: totem_central_left
+    shield: totem_left
   - board: seeeduino_xiao_ble
-    shield: totem_peripheral_left
-    artifact-name: totem_peripheral_left
-  - board: seeeduino_xiao_ble
-    shield: totem_peripheral_right
-    artifact-name: totem_peripheral_right
-  - board: nice_nano_v2
-    shield: settings_reset
-  - board: nice_nano_v2
-    shield: totem_central_dongle dongle_display
-    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-    artifact-name: totem_central_dongle_with_logging
+    shield: totem_right
+#  - board: planck_rev6
+#  - board: corneish_zen_v2_left
+#  - board: corneish_zen_v2_right
+#  - board: glove80_lh
+#  - board: glove80_rh
